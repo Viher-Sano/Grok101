@@ -1,0 +1,6 @@
+framework module Pods_Grok101UITests {
+  umbrella header "Pods-Grok101UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

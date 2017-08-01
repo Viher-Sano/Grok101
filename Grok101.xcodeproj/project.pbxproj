@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F792978289651533D914259 /* Pods_Grok101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDFD5FB336DC8E81B29E590 /* Pods_Grok101.framework */; };
+		4079A727B0504CD52BAF33A7 /* Pods_Grok101UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB51C64671162748BB3F2894 /* Pods_Grok101UITests.framework */; };
+		84B8AFB532E9C5B588391692 /* Pods_Grok101Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F51CDA17D4CBC7B0422265 /* Pods_Grok101Tests.framework */; };
+		FA30DEAB1F308B6E0010314B /* Todo+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA30DEAA1F308B6E0010314B /* Todo+Networking.swift */; };
 		FA52C9091F275BBE0036572A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52C9081F275BBE0036572A /* AppDelegate.swift */; };
 		FA52C90B1F275BBE0036572A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52C90A1F275BBE0036572A /* ViewController.swift */; };
 		FA52C90E1F275BBE0036572A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA52C90C1F275BBE0036572A /* Main.storyboard */; };
@@ -14,6 +18,8 @@
 		FA52C9131F275BBE0036572A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA52C9111F275BBE0036572A /* LaunchScreen.storyboard */; };
 		FA52C91E1F275BBF0036572A /* Grok101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52C91D1F275BBF0036572A /* Grok101Tests.swift */; };
 		FA52C9291F275BBF0036572A /* Grok101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52C9281F275BBF0036572A /* Grok101UITests.swift */; };
+		FA5715901F2B93F100BE5386 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA57158F1F2B93F100BE5386 /* Todo.swift */; };
+		FA5715921F2BA26000BE5386 /* TodoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5715911F2BA26000BE5386 /* TodoRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1217A00F43B945163F79B830 /* Pods-Grok101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grok101.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grok101/Pods-Grok101.release.xcconfig"; sourceTree = "<group>"; };
+		2ACE4A005C0D175DCA748188 /* Pods-Grok101Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grok101Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grok101Tests/Pods-Grok101Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FDFD5FB336DC8E81B29E590 /* Pods_Grok101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grok101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DE82F8F5C12F181AEB7C25 /* Pods-Grok101Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grok101Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grok101Tests/Pods-Grok101Tests.release.xcconfig"; sourceTree = "<group>"; };
+		68F51CDA17D4CBC7B0422265 /* Pods_Grok101Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grok101Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75E8768D38B99ACE5E3EE035 /* Pods-Grok101UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grok101UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grok101UITests/Pods-Grok101UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8459B78B00BC9F933610245F /* Pods-Grok101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grok101.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Grok101/Pods-Grok101.debug.xcconfig"; sourceTree = "<group>"; };
+		B92187FE6C36652F7FEFA215 /* Pods-Grok101UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grok101UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Grok101UITests/Pods-Grok101UITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB51C64671162748BB3F2894 /* Pods_Grok101UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grok101UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA30DEAA1F308B6E0010314B /* Todo+Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Todo+Networking.swift"; sourceTree = "<group>"; };
 		FA52C9051F275BBE0036572A /* Grok101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grok101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA52C9081F275BBE0036572A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA52C90A1F275BBE0036572A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,8 @@
 		FA52C9241F275BBF0036572A /* Grok101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Grok101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA52C9281F275BBF0036572A /* Grok101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grok101UITests.swift; sourceTree = "<group>"; };
 		FA52C92A1F275BBF0036572A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA57158F1F2B93F100BE5386 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		FA5715911F2BA26000BE5386 /* TodoRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F792978289651533D914259 /* Pods_Grok101.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B8AFB532E9C5B588391692 /* Pods_Grok101Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4079A727B0504CD52BAF33A7 /* Pods_Grok101UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64179D1AFAFA15664EE0DE2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FDFD5FB336DC8E81B29E590 /* Pods_Grok101.framework */,
+				68F51CDA17D4CBC7B0422265 /* Pods_Grok101Tests.framework */,
+				CB51C64671162748BB3F2894 /* Pods_Grok101UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89DB02A33FB616EA45A829CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8459B78B00BC9F933610245F /* Pods-Grok101.debug.xcconfig */,
+				1217A00F43B945163F79B830 /* Pods-Grok101.release.xcconfig */,
+				2ACE4A005C0D175DCA748188 /* Pods-Grok101Tests.debug.xcconfig */,
+				67DE82F8F5C12F181AEB7C25 /* Pods-Grok101Tests.release.xcconfig */,
+				75E8768D38B99ACE5E3EE035 /* Pods-Grok101UITests.debug.xcconfig */,
+				B92187FE6C36652F7FEFA215 /* Pods-Grok101UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA30DEAC1F30946E0010314B /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				FA5715911F2BA26000BE5386 /* TodoRouter.swift */,
+				FA57158F1F2B93F100BE5386 /* Todo.swift */,
+				FA30DEAA1F308B6E0010314B /* Todo+Networking.swift */,
+			);
+			name = Todo;
+			sourceTree = "<group>";
+		};
 		FA52C8FC1F275BBE0036572A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				FA52C91C1F275BBF0036572A /* Grok101Tests */,
 				FA52C9271F275BBF0036572A /* Grok101UITests */,
 				FA52C9061F275BBE0036572A /* Products */,
+				89DB02A33FB616EA45A829CB /* Pods */,
+				64179D1AFAFA15664EE0DE2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +159,7 @@
 				FA52C90F1F275BBE0036572A /* Assets.xcassets */,
 				FA52C9111F275BBE0036572A /* LaunchScreen.storyboard */,
 				FA52C9141F275BBE0036572A /* Info.plist */,
+				FA30DEAC1F30946E0010314B /* Todo */,
 			);
 			path = Grok101;
 			sourceTree = "<group>";
@@ -132,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA52C92D1F275BBF0036572A /* Build configuration list for PBXNativeTarget "Grok101" */;
 			buildPhases = (
+				6363DD66C8B7C79924EAE8D0 /* [CP] Check Pods Manifest.lock */,
 				FA52C9011F275BBE0036572A /* Sources */,
 				FA52C9021F275BBE0036572A /* Frameworks */,
 				FA52C9031F275BBE0036572A /* Resources */,
+				ED3D203D17F3DEC8252228D9 /* [CP] Embed Pods Frameworks */,
+				13E777F5D48B6D29BC1250F2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA52C9301F275BBF0036572A /* Build configuration list for PBXNativeTarget "Grok101Tests" */;
 			buildPhases = (
+				35D558366396A512B9A0B757 /* [CP] Check Pods Manifest.lock */,
 				FA52C9151F275BBE0036572A /* Sources */,
 				FA52C9161F275BBE0036572A /* Frameworks */,
 				FA52C9171F275BBE0036572A /* Resources */,
+				43066997063BEC2F103600FF /* [CP] Embed Pods Frameworks */,
+				2C98041C8C90FEEA6D3CA8BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA52C9331F275BBF0036572A /* Build configuration list for PBXNativeTarget "Grok101UITests" */;
 			buildPhases = (
+				7F2CD4A638E8452230DB68CF /* [CP] Check Pods Manifest.lock */,
 				FA52C9201F275BBF0036572A /* Sources */,
 				FA52C9211F275BBF0036572A /* Frameworks */,
 				FA52C9221F275BBF0036572A /* Resources */,
+				6E8E5CA1598F784F28428A58 /* [CP] Embed Pods Frameworks */,
+				4754F9E79441985691C2189D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +323,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13E777F5D48B6D29BC1250F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grok101/Pods-Grok101-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C98041C8C90FEEA6D3CA8BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grok101Tests/Pods-Grok101Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35D558366396A512B9A0B757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		43066997063BEC2F103600FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grok101Tests/Pods-Grok101Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4754F9E79441985691C2189D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grok101UITests/Pods-Grok101UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6363DD66C8B7C79924EAE8D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E8E5CA1598F784F28428A58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grok101UITests/Pods-Grok101UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F2CD4A638E8452230DB68CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED3D203D17F3DEC8252228D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Grok101/Pods-Grok101-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FA52C9011F275BBE0036572A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA52C90B1F275BBE0036572A /* ViewController.swift in Sources */,
+				FA5715901F2B93F100BE5386 /* Todo.swift in Sources */,
+				FA5715921F2BA26000BE5386 /* TodoRouter.swift in Sources */,
+				FA30DEAB1F308B6E0010314B /* Todo+Networking.swift in Sources */,
 				FA52C9091F275BBE0036572A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +622,7 @@
 		};
 		FA52C92E1F275BBF0036572A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8459B78B00BC9F933610245F /* Pods-Grok101.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BMWYKNJ2K6;
@@ -428,6 +636,7 @@
 		};
 		FA52C92F1F275BBF0036572A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1217A00F43B945163F79B830 /* Pods-Grok101.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BMWYKNJ2K6;
@@ -441,6 +650,7 @@
 		};
 		FA52C9311F275BBF0036572A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACE4A005C0D175DCA748188 /* Pods-Grok101Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +666,7 @@
 		};
 		FA52C9321F275BBF0036572A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DE82F8F5C12F181AEB7C25 /* Pods-Grok101Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +682,7 @@
 		};
 		FA52C9341F275BBF0036572A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E8768D38B99ACE5E3EE035 /* Pods-Grok101UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BMWYKNJ2K6;
@@ -485,6 +697,7 @@
 		};
 		FA52C9351F275BBF0036572A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B92187FE6C36652F7FEFA215 /* Pods-Grok101UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BMWYKNJ2K6;
@@ -516,6 +729,7 @@
 				FA52C92F1F275BBF0036572A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA52C9301F275BBF0036572A /* Build configuration list for PBXNativeTarget "Grok101Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +738,7 @@
 				FA52C9321F275BBF0036572A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA52C9331F275BBF0036572A /* Build configuration list for PBXNativeTarget "Grok101UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +747,7 @@
 				FA52C9351F275BBF0036572A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
